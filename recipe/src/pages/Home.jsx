@@ -8,7 +8,6 @@ function Home() {
     <div>
         <Veggie />
         <Popular />
-    
     </div>
   );
 }
