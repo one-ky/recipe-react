@@ -1,14 +1,19 @@
-import Home from './pages/Home'
 import React from 'react';
+import Pages from './pages/Pages';
+import Category from './components/Category'
+import { BrowserRouter } from 'react-router-dom';
+
 
 function App() {
-  return (
-    <div className="App">
-      <h1>App</h1>
-      <Home />
-      
-    </div>
-  );
+
+    return (
+        <BrowserRouter>
+            <div className='App'>
+                <Category />
+                <Pages />
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;

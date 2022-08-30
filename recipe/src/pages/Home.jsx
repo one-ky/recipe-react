@@ -6,10 +6,10 @@ import React from 'react'
 function Home() {
   return (
     <div>
-        <Veggie />
-        <Popular />
+        <Veggie/>
+        <Popular/>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home
