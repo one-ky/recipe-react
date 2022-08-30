@@ -18,7 +18,7 @@ function Popular() {
         if(check){
             setPopular(JSON.parse(check))
         }else{
-            const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=f80ba5a3bed34d2e95c5938a5eac767b&number=9`);
+            const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=8b4836b38260476e82eb275f5c0ea0d2&number=9`);
             // converting to a .json file makes the data manipulatable
             const data = await api.json();
             // taking the array data.recipe making it a string, becase local storage can only have strings
